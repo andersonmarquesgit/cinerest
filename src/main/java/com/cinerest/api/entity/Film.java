@@ -22,6 +22,7 @@ public class Film {
 	
 	public String title;
 	
+	@Column(name="summary", length=2000)
 	public String summary;
 	
 	@Column(name = "movie_theater")
